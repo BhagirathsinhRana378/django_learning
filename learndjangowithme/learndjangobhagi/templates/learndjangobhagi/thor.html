@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thor html</title>
-    <link rel="stylesheet" href="% 'style.css' %">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
+    <nav style="text-align: center; margin-bottom: 20px;">
+        <a href="{% url 'home' %}" style="margin: 0 10px; color: aliceblue;">Home</a> |
+        <a href="{% url 'about' %}" style="margin: 0 10px; color: aliceblue;">About</a> |
+        <a href="{% url 'thorbhai' %}" style="margin: 0 10px; color: aliceblue;">Thor Page</a>
+    </nav>
     <h1> God of thunder </h1>
-    
 </body>
 </html>

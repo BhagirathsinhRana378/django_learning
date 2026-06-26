@@ -6,12 +6,9 @@ def home(request):
     #return HttpResponse("hello, YOur at the page")
     return render(request, 'website/index.html')
 
-# def about(request):
-#     #return HttpResponse("hiii, YOur at about the page")
-#     return render(request, 'website/index2.html')
+def about(request):
+    #return HttpResponse("hiii, YOur at about the page")
+    return render(request, 'website/index2.html')
 
-# def contact(request):
-#     return HttpResponse("hello, YOur at contact the page")
-
-def thor(request):
-    return render(request, 'thor.html')
+def contact(request):
+    return HttpResponse("hello, YOur at contact the page")
