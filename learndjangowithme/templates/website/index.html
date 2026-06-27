@@ -1,4 +1,4 @@
-{% load static%}
+{% load static tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +14,6 @@
         <a href="{% url 'about' %}" style="margin: 0 10px; color: aliceblue;">About</a> |
         <a href="{% url 'thorbhai' %}" style="margin: 0 10px; color: aliceblue;">Thor Page</a>
     </nav>
-    <h1>Hello i am learning django</h1>
+    <h1 class='bg-amber-50 text-2xl ' style="color: black" >Hello i am learning django</h1>
 </body>
 </html>
